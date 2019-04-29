@@ -5,6 +5,26 @@
 * Some rules have been included here to give you a head start.
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
+
+body{
+	font-family: monospace, "Courier New";
+}
+
+header {
+	background-color: darkslategrey;
+	color: lime;
+}
+
+header h1 {
+	display: inline-block;
+	margin-right: 2rem;
+}
+
+img[alt="welcome to my homepage"] {
+	display: block;
+	margin: 0 auto 2rem
+}
+
 html, body {
 	margin: 0;
 	box-sizing: border-box;
@@ -21,21 +41,25 @@ html, body {
 .instructions-wrapper {
 	display: flex;
 	border: 3px solid black;
-	margin: 10%;
-	justify-content: space-around;
-	padding: 2%;
+	justify-content: space-between;
+	padding: 20px;
 }
 
 .instructions-wrapper img {
 	flex-basis: 20%;
 	align-self: flex-end;
+	margin-right: 0px;
+
 }
 
 .instructions-content {
+	flex-basis: 60%;
+	align-self: flex-start;
 }
 
 .about-me {
 	background-color: blue;
+	color: white;
 }
 
 .container2 {
@@ -78,7 +102,36 @@ html, body {
 .container3 table {
 	align-self: flex-end;
 	justify-self: stretch;
-	}
+	width: 100%;
+	color: lime}
+
+
+section:nth-child(4) h2 {
+	text-align:right;
+	margin-top: 0;}
+
+div.sfooter-content section: last-child{
+	background-color: #333;
+}
+
+.form-wrapper{
+	background-color: darkgreen;
+	color: lime;
+}
+
+
+label{
+
+}
+
+button{
+	background-color: lime;
+	front-weight: bold;
+	border: none;
+	padding: 10px 31px;
+
+
+}
 /* create a responsive container */
 @media only screen and (min-width: 1200px) {
 	.container { width: 1170px; }
