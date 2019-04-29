@@ -15,10 +15,70 @@ html, body {
 	padding: 0 2rem;
 }
 
+.container img {
+}
+
+.instructions-wrapper {
+	display: flex;
+	border: 3px solid black;
+	margin: 10%;
+	justify-content: space-around;
+	padding: 2%;
+}
+
+.instructions-wrapper img {
+	flex-basis: 20%;
+	align-self: flex-end;
+}
+
+.instructions-content {
+}
+
+.about-me {
+	background-color: blue;
+}
+
+.container2 {
+	display: flex;
+	margin: 10%;
+	padding: 2%;
+	justify-content: space-between;
+}
+
+.about-me img {
+	flex-basis: 35%;
+	align-self: center;
+	border: 3px solid white;
+}
+
+.about-me-content {
+	flex-basis: 55%;
+	justify-self: flex-end;
+
+}
 .clearfix {
 	clear: both;
 }
 
+.container3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 3px solid black;
+	padding: 2%;
+	margin: 10%;
+}
+
+.container3 h2 {
+	align-self: flex-end;
+	justify-self: stretch ;
+	flex-basis: 100%;
+	color: green;
+}
+.container3 table {
+	align-self: flex-end;
+	justify-self: stretch;
+	}
 /* create a responsive container */
 @media only screen and (min-width: 1200px) {
 	.container { width: 1170px; }

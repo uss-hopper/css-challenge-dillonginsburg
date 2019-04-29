@@ -37,7 +37,7 @@
 								<li>Have fun! The solution will be demonstrated in class. <small>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</small></li>
 							</ol>
 						</div>
-						<img src="images/captain-janeway.png" alt="captain janeway" />
+						<img src="images/captain-janeway.png" alt="captain janeway" id="img_1" />
 						<div class="clearfix"></div>
 					</div><!--/.instructions-->
 				</div><!--/.container-->
@@ -45,18 +45,20 @@
 
 			<!-- ABOUT ME -->
 			<section class="about-me">
-				<div class="container">
+				<div class="container2">
 					<img src="images/stunning.jpg" alt="captain picard" />
+					<div class="about-me-content">
 					<h2>A Day in the Life...</h2>
 					<p>Engage! Some days you get the bear, and some days the bear gets you. I'd like to think that I haven't changed those things, sir. Did you come here for something in particular or just general Riker-bashing? That might've been one of the shortest assignments in the history of Starfleet.</p>
 					<p>Hiss and stare at nothing then run suddenly away. Bare fangs at toy run hide in litter box until treats are fed toy mouse squeak roll over yet stare at the wall, play with food and get confused by dust. Chase dog then run away drink water out of the faucet for find a way to fit in tiny box. <span>Groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for the rest of the day - checked!</span></p>
-					<div class="clearfix"></div>
+					</div>
+				<div class="clearfix"></div>
 				</div>
 			</section>
 
 			<!-- PROFESSIONAL SKILLZ -->
-			<section>
-				<div class="container">
+			<section class="professional-skills">
+				<div class="container3">
 					<h2>Summary of Profe$$ional Skillz</h2>
 					<table>
 						<tr>
